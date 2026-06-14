@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>phab mobile | Taste bhi. Gains bhi.</title>
+    <meta
+      name="description"
+      content="Mobile-first Phab storefront for protein bars and milkshakes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@600;800;900&family=Roboto+Mono:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="logo" href="#top">phab</a>
+      <a class="pill-cta" href="#shop">Order</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <img src="assets/studio-session.png" alt="Phab protein bars in a late-night studio setup." />
+        <div class="hero-copy">
+          <p class="tag">Protein drop 001</p>
+          <h1>Taste bhi. Gains bhi.</h1>
+          <p>Bars and shakes for late nights, hard lifts, first trains, and no sad snack decisions.</p>
+          <a class="primary-action" href="#shop">Build my box</a>
+        </div>
+      </section>
+
+      <section class="quick-claims" aria-label="Product claims">
+        <span>28g protein bars</span>
+        <span>18g protein shakes</span>
+        <span>0 added sugar</span>
+      </section>
+
+      <section class="swipe-section" id="flavors" aria-labelledby="flavors-title">
+        <div class="section-head">
+          <p class="tag">Swipe flavors</p>
+          <h2 id="flavors-title">Pick your hit.</h2>
+        </div>
+        <div class="rail">
+          <article class="flavor-card">
+            <img src="assets/flavor-blueberry.png" alt="Phab Blueberry Pie protein bar." />
+            <span>Blueberry Pie</span>
+            <p>After-hours sweet, not sleepy.</p>
+          </article>
+          <article class="flavor-card">
+            <img src="assets/flavor-chocolate.png" alt="Phab Classic Chocolate protein bar." />
+            <span>Classic Chocolate</span>
+            <p>Old-school comfort, louder macros.</p>
+          </article>
+          <article class="flavor-card">
+            <img src="assets/flavor-coffee.png" alt="Phab Cold Coffee Crunch protein bar." />
+            <span>Cold Coffee Crunch</span>
+            <p>The 4pm hit with teeth.</p>
+          </article>
+          <article class="flavor-card">
+            <img src="assets/flavor-strawberry.png" alt="Phab Strawberry Cream protein bar." />
+            <span>Strawberry Cream</span>
+            <p>Sweet, sharp, still stacked.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="duo" aria-labelledby="duo-title">
+        <div class="section-head">
+          <p class="tag">Two formats</p>
+          <h2 id="duo-title">Bite it. Shake it.</h2>
+        </div>
+        <article class="feature-card">
+          <img src="assets/macro-bar.png" alt="Opened Phab protein bar." />
+          <div>
+            <span>Bars</span>
+            <h3>Texture, foil, bite.</h3>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="assets/shake-cooler.png" alt="Phab protein milkshakes in a cooler." />
+          <div>
+            <span>Milkshakes</span>
+            <h3>Cold, loud, liquid.</h3>
+          </div>
+        </article>
+      </section>
+
+      <section class="swipe-section" id="moments" aria-labelledby="moments-title">
+        <div class="section-head">
+          <p class="tag">Moment universe</p>
+          <h2 id="moments-title">Fuel everywhere.</h2>
+        </div>
+        <div class="rail moment-rail">
+          <article class="moment-card">
+            <img src="assets/midnight-run.png" alt="Phab midnight store display." />
+            <span>Midnight run</span>
+          </article>
+          <article class="moment-card">
+            <img src="assets/bar-vending.png" alt="Phab vending machine glow." />
+            <span>Vending glow</span>
+          </article>
+          <article class="moment-card">
+            <img src="assets/bar-rain-kiosk.png" alt="Phab rain-soaked kiosk." />
+            <span>Rain kiosk</span>
+          </article>
+          <article class="moment-card">
+            <img src="assets/after-hours.png" alt="Phab after-hours backseat ride." />
+            <span>After hours</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="swipe-section" id="shakes" aria-labelledby="shakes-title">
+        <div class="section-head">
+          <p class="tag">Shake dimension</p>
+          <h2 id="shakes-title">Protein ka naya pour.</h2>
+        </div>
+        <div class="rail moment-rail">
+          <article class="moment-card">
+            <img src="assets/shake-cooler.png" alt="Phab shakes in a cooler." />
+            <span>Cooler drop</span>
+          </article>
+          <article class="moment-card">
+            <img src="assets/shake-gym-fridge.png" alt="Phab shakes in a gym fridge." />
+            <span>Post-lift cold</span>
+          </article>
+          <article class="moment-card">
+            <img src="assets/shake-red-room.png" alt="Phab shakes in red recording room." />
+            <span>Red room pour</span>
+          </article>
+          <article class="moment-card">
+            <img src="assets/shake-train-platform.png" alt="Phab shakes on train platform." />
+            <span>First train fuel</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop" id="shop" aria-labelledby="shop-title">
+        <div class="section-head">
+          <p class="tag">Order options</p>
+          <h2 id="shop-title">Choose your fuel.</h2>
+        </div>
+
+        <div class="shop-list">
+          <article class="buy-card" data-product="Bar Box" data-price="1199">
+            <img src="assets/bar-vending.png" alt="Phab bar box." />
+            <div>
+              <span>12 bars</span>
+              <h3>Bar Box</h3>
+              <p>All four flavor hits.</p>
+              <strong>Rs. 1,199</strong>
+            </div>
+            <button type="button" data-add>Add</button>
+          </article>
+
+          <article class="buy-card" data-product="Shake Pack" data-price="899">
+            <img src="assets/shake-cooler.png" alt="Phab shake pack." />
+            <div>
+              <span>6 bottles</span>
+              <h3>Shake Pack</h3>
+              <p>Cold coffee, strawberry, chocolate.</p>
+              <strong>Rs. 899</strong>
+            </div>
+            <button type="button" data-add>Add</button>
+          </article>
+
+          <article class="buy-card featured" data-product="Full Drop Bundle" data-price="1899">
+            <img src="assets/shake-gym-fridge.png" alt="Phab full drop bundle." />
+            <div>
+              <span>Best mix</span>
+              <h3>Full Drop</h3>
+              <p>8 bars + 6 shakes.</p>
+              <strong>Rs. 1,899</strong>
+            </div>
+            <button type="button" data-add>Add</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Mobile navigation">
+      <a href="#flavors">Flavors</a>
+      <a href="#moments">Moments</a>
+      <a href="#shakes">Shakes</a>
+      <a href="#shop">Shop</a>
+    </nav>
+
+    <aside class="sticky-cart" aria-label="Cart summary">
+      <div>
+        <span id="cartCount">0 items</span>
+        <strong id="cartTotal">Rs. 0</strong>
+      </div>
+      <button type="button" id="checkout">Checkout</button>
+    </aside>
+
+    <script src="app.js"></script>
+  </body>
+</html>
